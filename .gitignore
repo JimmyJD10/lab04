@@ -1,15 +1,29 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Carpetas de compilación
+/build/
+/.idea/
+/.gradle/
+captures/
+
+# Archivos de configuración locales
 local.properties
+
+# Archivos generados por Android Studio
+*.iml
+*.apk
+*.ap_
+*.dex
+
+# Archivos de registro
+*.log
+
+# Otros archivos ignorables
+*.hprof
+*.orig
+*.class
+*.jar
+*.war
+*.ear
+*.swp
+*~.nib
+*~.bak
+.DS_Store
